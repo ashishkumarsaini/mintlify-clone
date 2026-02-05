@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mintlify Clone</title>
+  <link rel="stylesheet" href="./styles/root.css">
+  <link rel="stylesheet" href="./styles/common.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/main-sections.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="container flex header-container">
+      <div class="flex nav-container">
+        <div>
+          <object data="./assets/svg/brand-logo.svg" type="image/svg+xml"></object>
+        </div>
+        <div>
+          <nav>
+            <ul class="flex nav-items">
+              <li><span class="nav-item text-sm">Resources</span></li>
+              <li><span class="nav-item text-sm">Documentation</span></li>
+              <li><span class="nav-item text-sm">Customers</span></li>
+              <li><span class="nav-item text-sm">Blog</span></li>
+              <li><span class="nav-item text-sm">Pricing</span></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="flex header-buttons-container">
+        <div>
+          <a href="https://www.mintlify.com/contact/sales" class="button-secondary text header-button"
+            alt="contact sales">
+            Contact sales
+          </a>
+        </div>
+        <div>
+          <a href="https://dashboard.mintlify.com/signup?_gl=1*lcgk3s*_gcl_au*MTM3MzMxMTE5MS4xNzcwMTM4MjAw"
+            class="button-primary text header-button" alt="dashboard">
+            Start for free
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- hero section -->
+    <section id="hero-section" class="hero-bg-image">
+      <div class="container">
+        <div class="hero-section-container">
+          <div class="flex hero-blog-cta">
+            <span class="text-x-sm">New</span>
+            <p class="text-sm">Self-updating docs with agent suggestions</p>
+            <object data="./assets/svg/right-arrow.svg" type="image/svg+xml" class="blog-arrow"></object>
+          </div>
+          <h1 class="hero-heading">
+            The Intelligent Knowledge Platform
+          </h1>
+          <p class="hero-desc text-lg">
+            Helping teams create and maintain world-class documentation built for both humans and AI
+          </p>
+          <form class="hero-form flex">
+            <input type="email" required inputmode="email" autocomplete="email" placeholder="Email Address"
+              class="form-input text-sm">
+            <button class="button-primary">Start now</button>
+          </form>
+        </div>
+        <div class="hero-image-container">
+          <img src="https://www.mintlify.com/hero/hero-image-dark.svg" alt="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- trusted companies section -->
+    <section id="trusted-companies">
+      <div class="grid companies-container">
+        <div class="flex company">
+          <object data="./assets/svg/anthropic.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/coinbase.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/microsoft.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/perplexity.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/hubspot.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/x.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/paypal.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="flex company">
+          <object data="./assets/svg/lovable.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Highlights section -->
+    <section id="feature-highlight">
+      <div class="feature-highlight-container">
+        <div class="flex heading-container">
+          <h2 class="heading featured-heading">Built for the intelligence age</h2>
+          <p class="featured-desc">
+            Integrate AI into every part of your docs lifecycle. Woven into how your <br> knowledge is
+            written, maintained, and understood by both users and LLMs.
+          </p>
+        </div>
+        <div class="flex featured-card-container">
+          <div class="flex featured-card-container-row">
+            <div class="featured-card">
+              <div class="flex featured-card-details">
+                <div class="text-x-sm card-title">LLMS.TXT & MCP</div>
+                <h3 class="heading-md">Built for both people and AI</h3>
+                <p class="featured-card-desc">
+                  Ensure your product shows up in the AI workflows users already rely on. We support llms.txt,
+                  MCP, and whatever comes next.
+                </p>
+              </div>
+              <div>
+                <img src="./assets/images/featured-card-1.png" alt="feature-card-2">
+              </div>
+            </div>
+            <div class="flex featured-card-container-row">
+              <div class="featured-card">
+                <div class="flex featured-card-details">
+                  <div class="text-x-sm card-title">AGENT</div>
+                  <h3 class="heading-md">Self-updating knowledge management</h3>
+                  <p class="featured-card-desc">
+                    Draft, edit, and maintain content with a context-aware agent. Move faster and more consistently
+                    without the documentation debt.
+                  </p>
+                </div>
+                <div>
+                  <img src="./assets/images/featured-card-2.png" alt="feature-card-2">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="featured-card main-card">
+            <div class="flex featured-card-details">
+              <div class="text-x-sm card-title">ASSISTANT</div>
+              <h3 class="heading-md">Intelligent assistance for your users</h3>
+              <p class="featured-card-desc">
+                Turn every documentation visit into a guided conversation. Your AI assistant understands context and
+                delivers what users need.
+              </p>
+            </div>
+            <div>
+              <object data="./assets/svg/featured-card-3.svg" type="image/svg+xml"></object>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+
+  <footer></footer>
+</body>
+
+</html>

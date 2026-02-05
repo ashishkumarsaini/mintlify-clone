@@ -1,0 +1,180 @@
+.hero-bg-image {
+  background-image: url('https://www.mintlify.com/hero/bg-dark.svg');
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: 100% -160px;
+}
+
+.hero-section-container {
+  padding-top: calc(65.5px + 30px);
+  padding-bottom: calc(var(--spacing) * 24);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-blog-cta {
+  padding-block: calc(var(--spacing) * 1);
+  padding-left: calc(var(--spacing) * 1);
+  padding-right: calc(var(--spacing) * 2);
+  gap: calc(var(--spacing) * 2.5);
+  width: max-content;
+  background-color: var(--color-border-soft);
+  border-radius: 60px;
+  margin-bottom: 45px;
+}
+
+.hero-blog-cta span {
+  border-radius: 60px;
+  background-color: var(--color-brand-light);
+  text-transform: uppercase;
+  padding: calc(var(--spacing) * 0.5) calc(var(--spacing) * 2);
+  color: var(--color-white);
+}
+
+.hero-blog-cta p {
+  letter-spacing: 0.10px;
+}
+
+.blog-arrow {
+  height: 16px;
+}
+
+.hero-heading {
+  font-size: max(2.5rem, min(4vw, 4rem));
+  letter-spacing: -.02em;
+  font-weight: 600;
+  max-width: 43rem;
+  text-align: center;
+  line-height: 115%;
+}
+
+.hero-desc {
+  margin-top: calc(var(--spacing) * 6);
+  max-width: 29.5rem;
+  text-align: center;
+}
+
+.hero-form {
+  margin-top: calc(var(--spacing) * 8);
+  padding: calc(var(--spacing) * 1);
+  border: 1px solid var(--color-border-soft);
+  background-color: var(--color-border-soft);
+  gap: calc(var(--spacing) * 1.5);
+  border-radius: 60px;
+  max-width: 22.5rem;
+  width: 100%;
+}
+
+.hero-form input {
+  padding-inline: calc(var(--spacing) * 3);
+  height: calc(var(--spacing) * 8);
+  color: var(--color-text-main);
+  outline-style: none;
+}
+
+.hero-form button {
+  padding-block: 6px;
+  padding-inline: calc(var(--spacing) * 3);
+  display: inline-flex;
+}
+
+.hero-image-container {
+  border: 3px solid var(--color-background-soft);
+  border-bottom-width: 0px;
+  border-bottom: none;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  overflow: hidden;
+}
+
+/* trusted companies section */
+.companies-container {
+  padding-top: calc(var(--spacing) * 18);
+  padding-bottom: calc(var(--spacing) * 36);
+  max-width: 64rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: calc(var(--spacing)*2);
+  row-gap: calc(var(--spacing) * 7);
+}
+
+.company {
+  justify-content: center;
+  height: calc(var(--spacing) * 16);
+}
+
+/* featured highlight section */
+.feature-highlight-container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.featured-heading,
+.featured-desc {
+  text-align: center;
+}
+
+.heading-container {
+  max-width: max-content;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: calc(var(--spacing) * 4);
+  padding-inline: calc(var(--spacing) * 8);
+  padding-block: calc(var(--spacing) * 12);
+}
+
+.featured-desc,
+.featured-card-desc {
+  max-width: 40.5rem;
+  color: var(--color-text-soft);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.featured-card-container,
+.featured-card-container-row {
+  gap: calc(var(--spacing) * 6);
+}
+
+.featured-card-container {
+  flex-direction: column;
+}
+
+.featured-card {
+  padding: calc(var(--spacing) * 1.5);
+  border: 1px solid var(--color-border-sub);
+  border-radius: 1.5rem;
+}
+
+.featured-card-details {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: calc(var(--spacing) * 6);
+  gap: calc(var(--spacing) * 4);
+}
+
+.main-card .featured-card-details {
+  align-items: center;
+  width: 100%;
+}
+
+.main-card p {
+  max-width: 35rem;
+  text-align: center;
+}
+
+.card-title {
+  font-family: var(--font-geist-mono);
+  text-transform: uppercase;
+  color: var(--color-brand);
+  letter-spacing: .6px;
+}
+
+.featured-card-desc {
+  max-width: 22rem;
+}
