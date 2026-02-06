@@ -88,4 +88,4 @@ Clone the repository, open `index.html` in a browser (no build step).
 
 ## Screenshot
 
-![Screenshot](/public/screen-capture.jpg)
+![Screenshot](/assets/screen-capture.jpg)
