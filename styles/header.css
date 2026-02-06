@@ -51,3 +51,7 @@
 .header-button {
   display: inline-flex;
 }
+
+.button-primary .header-button {
+  letter-spacing: 0.7px;
+}

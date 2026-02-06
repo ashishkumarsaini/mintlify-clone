@@ -24,6 +24,14 @@
   line-height: 150%;
 }
 
+.text-geist-mono {
+  font-family: var(--font-geist-mono);
+  text-transform: uppercase;
+  color: var(--color-brand);
+  letter-spacing: .6px;
+  font-weight: 300;
+}
+
 .heading {
   font-size: 2.53rem;
   font-weight: 500;
@@ -36,6 +44,12 @@
   font-weight: 400;
   letter-spacing: -.24px;
   line-height: 130%;
+}
+
+.heading-sm {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -.24px;
 }
 
 /* layout */
@@ -66,4 +80,22 @@
   padding: 4.5px calc(var(--spacing) * 3);
   font-size: 14px;
   border-radius: 25px;
+}
+
+.outline-button {
+  border: 1px solid var(--color-border-soft);
+  background-color: var(--color-background-main);
+  color: var(--color-text-main);
+  border-radius: 25px;
+}
+
+/* section */
+.section-desc {
+  color: var(--color-text-soft);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.text-brand {
+  color: var(--color-brand);
 }
