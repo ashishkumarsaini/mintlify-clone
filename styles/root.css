@@ -1,7 +1,26 @@
 :root {
+  --twoslash-border-color: #222526;
+  --twoslash-popup-bg: #151819;
+  --twoslash-highlighted-border: rgba(255, 165, 0, .5);
+  --twoslash-highlighted-bg: rgba(255, 165, 0, .19);
+  --twoslash-unmatched-color: #aaa;
+  --twoslash-cursor-color: rgba(187, 187, 187, .733);
+  --twoslash-error-color: #ff6b6b;
+  --twoslash-error-bg: rgba(255, 107, 107, .19);
+  --twoslash-warn-color: orange;
+  --twoslash-warn-bg: rgba(255, 165, 0, .19);
+  --twoslash-tag-color: #6bb6ff;
+  --twoslash-tag-bg: rgba(107, 182, 255, .19);
+  --twoslash-tag-warn-color: var(--twoslash-warn-color);
+  --twoslash-tag-warn-bg: var(--twoslash-warn-bg);
+  --twoslash-tag-annotate-color: #4ade80;
+  --twoslash-tag-annotate-bg: rgba(74, 222, 128, .19);
   --color-background-main: lab(2.42579% -.165291 -.470081);
+  --color-background-invert: lab(100% 0 0);
   --color-text-main: lab(100% 0 0);
+  --color-text-invert: lab(2.42579% -.165291 -.470081);
   --color-text-soft: lab(100% 0 0/.7);
+  --color-text-sub: lab(100% 0 0/.6);
   --color-border-sub: lab(100% 0 0/.07);
   --color-background-soft: lab(100% 0 0/.05);
   --color-border-surface: lab(100% 0 0/.05);
@@ -9,6 +28,16 @@
   --color-border-soft: lab(100% 0 0/.15);
   --color-brand: lab(79.9844% -59.6292 22.5096);
   --color-brand-light: lab(51.3415% -41.5657 15.3527);
+  --color-border-solid: lab(100% 0 0);
+  --color-muted-invert: lab(2.42579% -.165291 -.470081/.5);
+  --twoslash-underline-color: currentColor;
+  --twoslash-popup-color: inherit;
+  --twoslash-popup-shadow: rgba(0, 0, 0, .08) 0px 1px 4px;
+  --twoslash-code-font: inherit;
+  --twoslash-code-font-size: 1em;
+  --twoslash-matched-color: inherit;
+  --twoslash-text-size: .8rem;
+  --twoslash-docs-tag-style: italic;
 
   /* font */
   --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
